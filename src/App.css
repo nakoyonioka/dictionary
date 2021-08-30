@@ -1,4 +1,6 @@
 .container {
+  font-family: "Pacifico", cursive;
+  font-family: "Rubik", sans-serif;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -19,6 +21,7 @@
   border-radius: 5px;
   padding: 5px;
   margin-right: 10px;
+  font-size: 1.2rem;
 }
 
 .container button {
@@ -42,38 +45,48 @@
   font-size: 1rem;
 }
 
-.containerWord{
-  width:70vw;
-  height:30vh;
-  margin-top:10px;
+.containerWord {
+  width: 50vw;
+  height: 30vh;
+  margin-top: 10px;
   padding: 5px;
   line-height: 1;
   font-size: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
-.word{
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  align-self: center;
-  padding:10px;
+.word {
+  font-style: italic;
+  font-size: 3rem;
+  padding: 10px;
 }
 
-.origin{
+.origin {
   font-size: 1.1rem;
-  padding:5px;
+  padding: 5px;
 }
 
-.meanings{
-  width:100%;
-  background-color: steelblue;
+.meanings {
+  width: 100%;
+  background-color: rgb(127, 197, 238);
   border-radius: 5px;
   margin-top: 10px;
-  padding:10px;
+  padding: 10px;
 }
 
-.audioSound{
-  width:50%;
+.audioSound {
+  width: 50%;
+}
+
+.bar {
+  width: 100%;
+  border-top: 1px solid black;
+  margin-bottom: 10px;
+}
+
+span {
+  margin-top: 10px;
+  font-style: italic;
 }

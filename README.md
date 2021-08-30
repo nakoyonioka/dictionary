@@ -2,7 +2,7 @@
 
 ## About The Project
 
-Simple dictionary of english words.
+English dictionary made with dictionaryapi.dev and ReactJS.
 
 ### Built With
 

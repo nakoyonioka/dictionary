@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div className="container">
+      <h1>English Dictionary</h1>
       <form className="wordForm" onSubmit={submitWord}>
         <input
           type="text"

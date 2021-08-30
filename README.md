@@ -6,5 +6,5 @@ Simple dictionary of english words.
 
 ### Built With
 
-- [](ReactJS)
-- [](https://dictionaryapi.dev/)
+- []()ReactJS
+- []()https://dictionaryapi.dev/

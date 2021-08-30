@@ -15,14 +15,14 @@ export default function Word({ data }) {
           </div>
 
           <div className="audioSound">
-            <audio controls autoPlay>
+            <audio controls>
               <source src={data.phonetics[0].audio} type="audio/mpeg" />
             </audio>
           </div>
 
           <div className="meanings">
-            {data.meanings.map((element) => (
-              <>
+            {data.meanings.map((element, index) => (
+              <div key={index}>
                 <div className="bar"></div>
                 <div className="partOfSpeech">
                   <span>{element.partOfSpeech}:</span>
@@ -31,7 +31,7 @@ export default function Word({ data }) {
                   <p>{element.definitions[0].definition}</p>
                 </div>
                 <div className="bar"></div>
-              </>
+              </div>
             ))}
           </div>
         </>
